@@ -1,0 +1,95 @@
+body {
+    font-family:'Helvetica Neue' 'PingFang TC';
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    width: 1280px;
+    background-color: #f0f0f0;
+    padding: 80px 85px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.title {
+    width: 350px;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #2eb738;
+}
+
+.edge {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    width:280px;
+    border-top: 1px solid #2eb738;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.box {
+    width: 350px;
+    height: 366px;
+    background-color: #fff;
+    border-radius: 100px 0 30px 0;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 64px 40px;
+    color: #2eb738;
+    justify-content: space-between;
+}
+
+.box h3 {
+    font-size: 128px;
+    margin: 0;
+    width: 71px;
+    height: 130px;
+    margin-left: 16px;
+    text-shadow: 4px 3px 0px #f0f0f0;
+}
+
+.box p {
+    margin: 0;
+    font-size: 24px;
+    width: 118px;
+    height: 33px;
+}
+
+h1 {
+    font-size: 56px;
+    margin: 0;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer {
+    background-color: #2EB738;
+    color: white;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 8 85px;
+    text-align: right;
+    font-size: 16px;
+}
